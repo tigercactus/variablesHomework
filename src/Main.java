@@ -50,7 +50,7 @@ public class Main {
         int  difKrisYear = (newKrisSalary - krisSalary) * 12;
         System.out.println("Маша теперь получает " + newMashaSalary +" рублей. Годовой доход вырос на " + difMashaYear +" рублей." );
         System.out.println("Денис теперь получает " + newDenisSalary +" рублей. Годовой доход вырос на " + difDenisYear +" рублей." );
-        System.out.println("Кристина теперь получает " + newKrisSalary +" рублей. Годовой доход вырос на " + difKrisYear +" рублей." );
+        System.out.println("Кристина теперь получает " + newKrisSalary +" рублей. Годовой доход вырос на " + difKrisYear +" рублей" );
 
 
 

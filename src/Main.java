@@ -39,15 +39,15 @@ public class Main {
         // при делении на половину и четверть кг?
 
         //Задание 5
-        double mashaSalary = 67760;
-        double denisSalary = 83690;
-        double krisSalary = 76230;
-        double newMashaSalary = mashaSalary * 1.1;
-        double newDenisSalary = denisSalary * 1.1;
-        double newKrisSalary = krisSalary * 1.1;
-        double difMashaYear = (newMashaSalary - mashaSalary) * 12;
-        double difDenisYear = ((newDenisSalary - denisSalary) * 12);
-        double difKrisYear = (newKrisSalary - krisSalary) * 12;
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int  krisSalary = 76230;
+        int  newMashaSalary = (int) (mashaSalary * 1.1);
+        int  newDenisSalary = (int) (denisSalary * 1.1);
+        int  newKrisSalary = (int) (krisSalary * 1.1);
+        int  difMashaYear = (newMashaSalary - mashaSalary) * 12;
+        int  difDenisYear = ((newDenisSalary - denisSalary) * 12);
+        int  difKrisYear = (newKrisSalary - krisSalary) * 12;
         System.out.println("Маша теперь получает " + newMashaSalary +" рублей. Годовой доход вырос на " + difMashaYear +" рублей." );
         System.out.println("Денис теперь получает " + newDenisSalary +" рублей. Годовой доход вырос на " + difDenisYear +" рублей." );
         System.out.println("Кристина теперь получает " + newKrisSalary +" рублей. Годовой доход вырос на " + difKrisYear +" рублей." );
